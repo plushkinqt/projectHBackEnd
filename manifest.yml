@@ -1,0 +1,8 @@
+applications:
+- path: ./target/blue-1.0-SNAPSHOT.war
+  memory: 2048M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: YevgenJava
+  host: yevgenjava
+  disk_quota: 1024M
